@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Resources\Images\shmowder32.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Panacea.Lib\Panacea.Lib.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+    </ItemGroup>
+
+</Project>
